@@ -1,0 +1,24 @@
+/* ============================================= */
+/*                 Variables                     */
+/* ============================================= */
+
+// Main Components
+$font-primary: fantasy;
+$max-body-width: 1024px;
+
+
+// Gallery
+$container-background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,44,1) 18%, rgba(77,115,8,0.8632046568627451) 40%, rgba(116,8,108,1) 56%, rgba(0,212,255,1) 100%);
+$gallery-gap: 20px;
+$image-border-radius: 8px;
+$image-transform-scale: 1.05;
+$transition-speed: 0.3s;
+
+// Search Bar
+$search-width: 300px;
+$border-style: 1px solid #ccc;
+$button-background: #4CAF50;
+$button-background-hover: #45a049;
+$button-border-radius: 4px;
+$padding-standard: 10px;
+$font-size-standard: 16px;

@@ -1,0 +1,32 @@
+/* ============================================= */
+/*              Header styles                    */
+/* ============================================= */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: $padding-standard 0;
+}
+
+#search {
+  padding: $padding-standard;
+  font-size: $font-size-standard;
+  border: $border-style;
+  border-radius: $button-border-radius 0 0 $button-border-radius;
+  width: $search-width;
+}
+
+.search-button {
+  padding: $padding-standard;
+  font-size: $font-size-standard;
+  border: $border-style;
+  border-left: none;
+  background-color: $button-background;
+  color: white;
+  border-radius: 0 $button-border-radius $button-border-radius 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button-background-hover;
+  }
+}

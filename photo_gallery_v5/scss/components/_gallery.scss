@@ -1,0 +1,21 @@
+/* ============================================= */
+/*              Gallery Style                    */
+/* ============================================= */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: $gallery-gap;
+  margin: auto;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: $image-border-radius;
+    transition: transform $transition-speed ease;
+
+    &:hover {
+      transform: scale($image-transform-scale);
+    }
+  }
+}
